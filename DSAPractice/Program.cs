@@ -8,6 +8,7 @@ public class Program
         var item = new int[] { 1, 4, 1, 2, 5, 3, 6 };
         CountFrequencyUsingLinq(item);
         CountFrequency(item);
+        TwoSum.Run();
     }
 
     private static void CountFrequencyUsingLinq(int[] item)
