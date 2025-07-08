@@ -9,6 +9,7 @@ public class Program
         CountFrequencyUsingLinq(item);
         CountFrequency(item);
         TwoSum.Run();
+        ValidPalindrome.Run();
     }
 
     private static void CountFrequencyUsingLinq(int[] item)
