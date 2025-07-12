@@ -13,6 +13,7 @@ public class Program
         ValidPalindrome.Run();
         DuplicateElement.Duplicate();
         MinimumProduct.Minimum();
+        Solution.MaxSubArray();
     }
 
     private static void CountFrequencyUsingLinq(int[] item)
