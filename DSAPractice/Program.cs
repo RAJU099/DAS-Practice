@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using DSAPractice;
 
 public class Program
 {
@@ -11,6 +12,7 @@ public class Program
         TwoSum.Run();
         ValidPalindrome.Run();
         DuplicateElement.Duplicate();
+        MinimumProduct.Minimum();
     }
 
     private static void CountFrequencyUsingLinq(int[] item)
