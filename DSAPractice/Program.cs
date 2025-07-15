@@ -14,6 +14,10 @@ public class Program
         DuplicateElement.Duplicate();
         MinimumProduct.Minimum();
         Solution.MaxSubArray();
+        IndicesMaximumSubArray.IndicesMaxSubArray();
+        LongestCommonPrefix.CommonPrefix();
+        LongestKunique.LongestKuniqueSubstring();
+        LengthOfLongestSubstring.LengthOfLongestSubstringallUnique();
     }
 
     private static void CountFrequencyUsingLinq(int[] item)
