@@ -18,6 +18,31 @@ public class Program
         LongestCommonPrefix.CommonPrefix();
         LongestKunique.LongestKuniqueSubstring();
         LengthOfLongestSubstring.LengthOfLongestSubstringallUnique();
+        StackusingArray stack = new StackusingArray(5);
+        stack.Push(10);
+        stack.Push(20);
+        stack.Push(30);
+
+        stack.PrintStack();
+
+        Randdom.RanddomGenerateUsingArray();
+        Randdom.RanddomGenerateUsingList();
+
+        // list Implementation
+        var obj = new Operation();
+        obj.PushFront(16);
+        obj.PushFront(17);
+        obj.PushFront(18);
+        obj.PushFront(19);
+        //obj.PushEnd(20);
+        //obj.PrintList();
+        //obj.PopFront();
+        //obj.PrintList();
+        //obj.PopBack();
+        //obj.PrintList();
+
+        obj.Insert(87, 4);
+        obj.PrintList();
     }
 
     private static void CountFrequencyUsingLinq(int[] item)
