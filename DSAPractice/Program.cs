@@ -34,15 +34,25 @@ public class Program
         obj.PushFront(17);
         obj.PushFront(18);
         obj.PushFront(19);
-        //obj.PushEnd(20);
-        //obj.PrintList();
-        //obj.PopFront();
-        //obj.PrintList();
-        //obj.PopBack();
-        //obj.PrintList();
+        obj.PushEnd(20);
+        obj.PrintList();
+        obj.PopFront();
+        obj.PrintList();
+        obj.PopBack();
+        obj.PrintList();
 
         obj.Insert(87, 4);
         obj.PrintList();
+
+        var data = new List<string> { "a","b","c", "d", "e", "f", "g","h"};
+        var mergeList = data.MergeList(3);
+
+        string formatted = "(" + string.Join(",", mergeList.Select(c => $"({string.Join(",",c)})")) +")";
+
+
+        // Keep console window open
+        Console.WriteLine(formatted);
+
     }
 
     private static void CountFrequencyUsingLinq(int[] item)
